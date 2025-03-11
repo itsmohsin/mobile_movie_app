@@ -9,6 +9,7 @@ import { fetchMovies } from "@/services/api";
 import MovieCard from "@/components/MovieCard";
 export default function Index() {
   const route = useRoute();
+  
 
   const {
     data: movies, 
